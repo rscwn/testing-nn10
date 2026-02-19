@@ -3,5 +3,7 @@
     "url_x86": "",
     
     "version_arm": "version-b29f0194bebd445b",
-    "version_x86": ""
+    "version_x86": "",
+
+    "joly_version": "0.1.0"
 }
