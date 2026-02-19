@@ -9,12 +9,12 @@ JOLY_BIN_URL="https://raw.githubusercontent.com/rscwn/testing-nn10/refs/heads/ma
 INSTALLER_BIN_URL="$JOLY_BIN_URL/instwaller-$ARCH"
 
 # we need to check if we already installed
-BUNDLE_DIR="RonixM.app"
+BUNDLE_DIR="Roblox.app"
 APP_DIR="/Applications/$BUNDLE_DIR"
 
 UPDATE=0
 if [ -d "$APP_DIR" ]; then
-    echo "RonixM is already installed in /Applications. Do you want to update or reinstall?"
+    echo "it is already installed in /Applications. Do you want to update or reinstall?"
     echo "1) Update"
     echo "2) Reinstall"
     echo "3) Exit"
