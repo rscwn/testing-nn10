@@ -10,6 +10,8 @@ if [ -z "$ARCH" ]; then
     ARCH=$(uname -m)
 fi
 
+echo "Downloading for: $ARCH"
+
 JOLY_BIN_URL="https://raw.githubusercontent.com/rscwn/testing-nn10/refs/heads/main/Mac/"
 INSTALLER_BIN_URL="$JOLY_BIN_URL/instwaller-$ARCH"
 
