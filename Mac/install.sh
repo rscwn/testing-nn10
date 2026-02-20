@@ -3,7 +3,12 @@
 # user install script
 # bash -c "$(curl -fsSL https://raw.githubusercontent.com/rscwn/testing-nn10/refs/heads/main/Mac/install.sh)"
 
-ARCH=$(uname -m)
+ARCH=$1
+shift
+
+if [ -z "$ARCH" ]; then
+    ARCH=$(uname -m)
+fi
 
 JOLY_BIN_URL="https://raw.githubusercontent.com/rscwn/testing-nn10/refs/heads/main/Mac/"
 INSTALLER_BIN_URL="$JOLY_BIN_URL/instwaller-$ARCH"
